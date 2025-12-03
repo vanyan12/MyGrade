@@ -103,6 +103,7 @@ def main():
         "pdf_base64": "<base64 of PDF>"
     }
     """
+    print("Aren")
     try:
         input_body = sys.stdin.read()
         body = json.loads(input_body)
